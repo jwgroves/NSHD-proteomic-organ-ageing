@@ -31,42 +31,55 @@ Scripts should be run in the following order:
 NSHD analysis
 
 1_Loading_and_cleaning_proteomic_data_rev.R
+
 Loads and preprocesses SomaScan proteomic data from .adat files.
 
 2_Generate_organ_ages_rev.ipynb
+
 Applies externally developed proteomic ageing clocks to derive organ-specific age estimates.
 
 3_Eva_script_NSHD_organ_ageing_paper_rev.R
+
 Prepares additional derived variables for downstream analysis.
 
 4_Load_variables_and_clean_data_rev.R
+
 Loads and cleans life-course exposures, covariates, and mortality outcomes, and merges them with the proteomic dataset.
 
 5_Multiple_imputation_rev.R
+
 Performs multiple imputation for missing exposure and covariate data.
 
 Additional sex-specific imputation scripts used for sensitivity analyses:
+
 Multiple_imputation_rev_men.R
+
 Multiple_imputation_rev_women.R
 
 6_Aim_1_Generate_Results_rev.R
+
 Addresses Q1: Does organ ageing vary in an identically aged birth cohort?
 
 7_Aim_2_Generate_Results_rev.R
+
 Addresses Q2: Is accelerated organ ageing a prognostic indicator for mortality risk?
 
 8_Aim_3_Generate_Results_rev.R
+
 Addresses Q3: Which life-course factors shape organ ageing?
 
 9_Aim_4_Generate_Results_rev.R
+
 Addresses Q4: Which proteins best capture life-course exposures and mortality risk?
 
 UK Biobank replication
 
 10_UKB_load_and_clean_data.R
+
 Loads and preprocesses UK Biobank data.
 
 11_UKB_analysis.R
+
 Performs replication analyses in UK Biobank.
 
 **Input data**
